@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./input.css -o css/styles.css ",
+    "build-css-watch": "tailwindcss -i ./input.css -o css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanzimr8/tailwindlabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanzimr8/tailwindlabs/issues"
+  },
+  "homepage": "https://github.com/tanzimr8/tailwindlabs#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

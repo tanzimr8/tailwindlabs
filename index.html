@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Tailwind Lab</title>
 </head>
+
 <body>
+    <!-- NAV SECTION -->
     <nav class="relative container mx-auto p-6">
         <div class="flex items-center justify-between">
             <!-- LOGO -->
-             <div class="pt-2">
+            <div class="pt-2">
                 <img src="images/logo.svg" alt="logo">
-             </div>
-             <!-- MENU ITEMS -->
-              <div class="hidden md:flex space-x-6">
+            </div>
+            <!-- MENU ITEMS -->
+            <div class="hidden md:flex space-x-6">
                 <a href="#" class="hover:text-red-600">Pricing</a>
-                <a href="#" class="hover:text-red-600" >Products</a>
+                <a href="#" class="hover:text-red-600">Products</a>
                 <a href="#" class="hover:text-red-600">About</a>
                 <a href="#" class="hover:text-red-600">Careers</a>
                 <a href="#" class="hover:text-red-600">Community</a>
-              </div>
-              <!-- BUTTON -->
-              <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-red-600 rounded-full baseline hover:bg-red-700">Get Started</a>
+            </div>
+            <!-- BUTTON -->
+            <a href="#"
+                class="hidden md:block p-3 px-6 pt-2 text-white bg-red-600 rounded-full baseline hover:bg-red-700">Get
+                Started</a>
         </div>
     </nav>
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!-- LEFT ITEMS: TEXT AND BUTTON -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">Bring everyone together to
+                    build better products</h1>
+                <p class="max-w-sm text-center md:text-left">
+                    Manage makes it simple for software teams to plan day-to-day tasks
+                    while keeping the larger team goals in view.
+                </p>
+                <!-- BUTTON -->
+                <div class="flex justify-center md:justify-start">
+                    <a href="#"
+                        class="p-3 px-6 pt-2 text-white bg-red-600 rounded-full baseline hover:bg-red-700">Get
+                        Started</a>
+                </div>
+            </div>
+            <!-- RIGHT ITEM: IMAGES -->
+             <div class="md:w-1/2">
+                <img src="images/illustration-intro.svg" alt="illustration image" />
+             </div>
+            <div>
+
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

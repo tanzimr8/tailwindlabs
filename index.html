@@ -28,16 +28,35 @@
             <a href="#"
                 class="hidden md:block p-3 px-6 pt-2 text-white bg-red-600 rounded-full baseline hover:bg-red-700">Get
                 Started</a>
+            <!-- HAMBURGER ICON -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute hidden flex-col items-center self-end py-8 space-y-6 font-bold bg-white sm:self-end left-6 right-6 drop-shadow-md">
+                <a href="#" class="hover:text-red-600">Apple</a>
+                <a href="#" class="hover:text-red-600">Benefits</a>
+                <a href="#" class="hover:text-red-600">About</a>
+                <a href="#" class="hover:text-red-600">More</a>
+                <a href="#" class="hover:text-red-600">Testimonials</a>
+            </div>
         </div>
     </nav>
     <!-- HERO SECTION -->
     <section id="hero">
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-2 md:space-y-0">
             <!-- LEFT ITEMS: TEXT AND BUTTON -->
             <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-                <h1 class="max-w-md text-6xl font-bold text-center md:text-5xl md:text-left">What to know about apples</h1>
+                <h1 class="max-w-md text-6xl font-bold text-center md:text-5xl md:text-left">What to know about apples
+                </h1>
                 <p class="max-w-sm text-center md:text-left">
-                    Apples contain antioxidants, vitamins, dietary fiber, and a range of other nutrients. Due to their varied nutrient content, apples can be a healthy addition to a balanced diet
+                    Apples contain antioxidants, vitamins, dietary fiber, and a range of other nutrients. Due to their
+                    varied nutrient content, apples can be a healthy addition to a balanced diet
                 </p>
                 <!-- BUTTON -->
                 <div class="flex justify-center md:justify-start">
@@ -47,7 +66,7 @@
             </div>
             <!-- RIGHT ITEM: IMAGES -->
             <div class="flex items-center justify-center w-1/2">
-                <img class="w-1/2" src="images/an-applewebp.webp" alt="illustration image" />
+                <img class="md:w-1/2" src="images/an-applewebp.webp" alt="illustration image" />
             </div>
             <div>
             </div>
@@ -60,7 +79,9 @@
             <div class="flex flex-col space-y-12 md:w-1/2">
                 <h2 class="max-w-lg text-4xl font-bold text-center md:text-left">What are the Benefits?</h2>
                 <p class="max-w-md text-center md:text-left">
-                    Apples are rich in fiber, vitamins, and minerals, all of which benefit human health. They also provideTrusted Source an array of antioxidants. These substances helpTrusted Source neutralize free radicals.
+                    Apples are rich in fiber, vitamins, and minerals, all of which benefit human health. They also
+                    provideTrusted Source an array of antioxidants. These substances helpTrusted Source neutralize free
+                    radicals.
                 </p>
             </div>
             <!-- RIGHT COLUMN -->
@@ -87,7 +108,9 @@
                             Reduce the risk of stroke
                         </h3>
                         <p class="text-black">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus reiciendis doloremque laborum neque, error eum, laudantium tempora rem consequatur aperiam odio et blanditiis quia ullam facilis. Suscipit unde autem sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus reiciendis
+                            doloremque laborum neque, error eum, laudantium tempora rem consequatur aperiam odio et
+                            blanditiis quia ullam facilis. Suscipit unde autem sunt.
                         </p>
                     </div>
                 </div>
@@ -113,7 +136,9 @@
                             Lower cholesterol
                         </h3>
                         <p class="text-black">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus minus iure sint modi ipsa impedit aliquid dolorum eius! At totam non quisquam nihil temporibus ea, facere cum accusantium expedita!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus minus iure sint
+                            modi ipsa impedit aliquid dolorum eius! At totam non quisquam nihil temporibus ea, facere
+                            cum accusantium expedita!
                         </p>
                     </div>
                 </div>
@@ -139,7 +164,9 @@
                             Boost heart health
                         </h3>
                         <p class="text-black">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo debitis? Ducimus consequatur non culpa, mollitia labore minus. Odit iusto nemo perspiciatis id incidunt ratione provident unde assumenda eius praesentium.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo debitis? Ducimus
+                            consequatur non culpa, mollitia labore minus. Odit iusto nemo perspiciatis id incidunt
+                            ratione provident unde assumenda eius praesentium.
                         </p>
                     </div>
                 </div>
@@ -147,37 +174,51 @@
         </div>
     </section>
     <section id="testimonials">
-        <div class= "mx-auto px-6 max-w-6xl mt-32 text-center">
+        <div class="mx-auto px-6 max-w-6xl mt-32 text-center">
             <h2 class="text-4xl text-center font-bold">How an apple keeps the doctors away?</h2>
-            <div class="flex flex-col mt-6  md:flex-row md:space-x-6">
+            <div class="flex flex-col mt-6  md:flex-row space-y-6 md:space-x-6">
                 <div class="flex flex-col items-center p-12 space-y-6 bg-red-100 md:w-1/3">
                     <img src="images/avatar-anisha.png" class="w-16 -mt-14" alt="" />
                     <h5 class="text-lg font-bold">Anisha Li</h5>
-                    <p class="text-sm">“ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non saepe aperiam nulla mollitia error blanditiis consequatur quod hic perspiciatis eius et!”</p>
+                    <p class="text-sm">“ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non saepe
+                        aperiam nulla mollitia error blanditiis consequatur quod hic perspiciatis eius et!”</p>
                 </div>
                 <div class="flex flex-col items-center p-12 space-y-6 bg-red-100 md:w-1/3">
                     <img src="images/avatar-ali.png" class="w-16 -mt-14" alt="" />
                     <h5 class="text-lg font-bold">Ali Bravo</h5>
-                    <p class="text-sm"> “ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non saepe aperiam nulla mollitia error blanditiis consequatur quod hic perspiciatis eius et!”</p>
+                    <p class="text-sm"> “ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non saepe
+                        aperiam nulla mollitia error blanditiis consequatur quod hic perspiciatis eius et!”</p>
                 </div>
                 <div class="flex flex-col items-center p-12 space-y-6 bg-red-100 md:w-1/3">
                     <img src="images/avatar-richard.png" class="w-16 -mt-14" alt="" />
                     <h5 class="text-lg font-bold">Richard Watts</h5>
-                    <p class="text-sm">“ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non saepe aperiam nulla mollitia error blanditiis consequatur quod hic perspiciatis eius et!”</p>
+                    <p class="text-sm">“ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non saepe
+                        aperiam nulla mollitia error blanditiis consequatur quod hic perspiciatis eius et!”</p>
                 </div>
             </div>
             <!-- BUTTON -->
             <div class=" flex justify-center mt-6">
-                <a href="#" class="p-3 px-6 pt-2 text-white bg-red-600 rounded-full baseline hover:bg-red-700">Get Started</a>
+                <a href="#" class="p-3 px-6 pt-2 text-white bg-red-600 rounded-full baseline hover:bg-red-700">Get
+                    Started</a>
             </div>
         </div>
     </section>
     <section id="cta" class="bg-red-600">
-        <div class="container max-w-6xl mx-auto flex flex-col mt-6 py-12 items-center justify-between md:flex-row">
-            <h2 class="text-2xl font-bold text-white text-center">Do you want to learn more?</h2>
-            <a href="#" class="p-3 px-6 pt-2 text-white bg-white text-red-500 rounded-full baseline hover:bg-green-700 hover:text-white">Know Benefits</a>
+        <div
+            class="container max-w-6xl mx-auto flex flex-col mt-6 py-12 items-center justify-between space-y-6 md:flex-row">
+            <h2 class="text-3xl font-bold text-white text-center">Do you want to learn more?</h2>
+            <a href="#"
+                class="p-3 px-6 pt-2 text-black-500 bg-white rounded-full baseline hover:bg-green-700 hover:text-white">Know
+                Benefits</a>
         </div>
     </section>
+    <footer>
+        <div class="flex flex-col items-center justify-center bg-black text-white py-6 space-y-4">
+            <h4 class="text-2xl md:text-4xl ">An Apple</h4>
+            <h6 text-1xl>&COPY TANZIM RAHMAN 2024 </h6>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
